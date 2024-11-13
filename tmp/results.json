@@ -1,0 +1,173 @@
+{
+  "countThreadsArr": [
+    2,
+    4,
+    6,
+    8,
+    12
+  ],
+  "graphResults": [
+    {
+      "countNodes": 100,
+      "countEdges": 500,
+      "serialTimeMillis": 0,
+      "parallelResults": [
+        {
+          "parallelTimeMillis": 3,
+          "countThreads": 2
+        },
+        {
+          "parallelTimeMillis": 2,
+          "countThreads": 4
+        },
+        {
+          "parallelTimeMillis": 2,
+          "countThreads": 6
+        },
+        {
+          "parallelTimeMillis": 2,
+          "countThreads": 8
+        },
+        {
+          "parallelTimeMillis": 2,
+          "countThreads": 12
+        }
+      ]
+    },
+    {
+      "countNodes": 1000,
+      "countEdges": 5000,
+      "serialTimeMillis": 1,
+      "parallelResults": [
+        {
+          "parallelTimeMillis": 2,
+          "countThreads": 2
+        },
+        {
+          "parallelTimeMillis": 3,
+          "countThreads": 4
+        },
+        {
+          "parallelTimeMillis": 5,
+          "countThreads": 6
+        },
+        {
+          "parallelTimeMillis": 3,
+          "countThreads": 8
+        },
+        {
+          "parallelTimeMillis": 2,
+          "countThreads": 12
+        }
+      ]
+    },
+    {
+      "countNodes": 10000,
+      "countEdges": 50000,
+      "serialTimeMillis": 4,
+      "parallelResults": [
+        {
+          "parallelTimeMillis": 12,
+          "countThreads": 2
+        },
+        {
+          "parallelTimeMillis": 7,
+          "countThreads": 4
+        },
+        {
+          "parallelTimeMillis": 7,
+          "countThreads": 6
+        },
+        {
+          "parallelTimeMillis": 9,
+          "countThreads": 8
+        },
+        {
+          "parallelTimeMillis": 6,
+          "countThreads": 12
+        }
+      ]
+    },
+    {
+      "countNodes": 100000,
+      "countEdges": 500000,
+      "serialTimeMillis": 17,
+      "parallelResults": [
+        {
+          "parallelTimeMillis": 29,
+          "countThreads": 2
+        },
+        {
+          "parallelTimeMillis": 40,
+          "countThreads": 4
+        },
+        {
+          "parallelTimeMillis": 34,
+          "countThreads": 6
+        },
+        {
+          "parallelTimeMillis": 35,
+          "countThreads": 8
+        },
+        {
+          "parallelTimeMillis": 37,
+          "countThreads": 12
+        }
+      ]
+    },
+    {
+      "countNodes": 100000,
+      "countEdges": 1000000,
+      "serialTimeMillis": 19,
+      "parallelResults": [
+        {
+          "parallelTimeMillis": 23,
+          "countThreads": 2
+        },
+        {
+          "parallelTimeMillis": 37,
+          "countThreads": 4
+        },
+        {
+          "parallelTimeMillis": 28,
+          "countThreads": 6
+        },
+        {
+          "parallelTimeMillis": 28,
+          "countThreads": 8
+        },
+        {
+          "parallelTimeMillis": 34,
+          "countThreads": 12
+        }
+      ]
+    },
+    {
+      "countNodes": 150000,
+      "countEdges": 10000000,
+      "serialTimeMillis": 197,
+      "parallelResults": [
+        {
+          "parallelTimeMillis": 138,
+          "countThreads": 2
+        },
+        {
+          "parallelTimeMillis": 101,
+          "countThreads": 4
+        },
+        {
+          "parallelTimeMillis": 158,
+          "countThreads": 6
+        },
+        {
+          "parallelTimeMillis": 108,
+          "countThreads": 8
+        },
+        {
+          "parallelTimeMillis": 128,
+          "countThreads": 12
+        }
+      ]
+    }
+  ]
+}

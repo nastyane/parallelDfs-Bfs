@@ -1,0 +1,48 @@
+Times for 100 vertices and 500 connections: 
+Serial: 0
+Parallel(2): 3
+Parallel(4): 2
+Parallel(6): 2
+Parallel(8): 2
+Parallel(12): 2
+--------
+Times for 1000 vertices and 5000 connections: 
+Serial: 1
+Parallel(2): 2
+Parallel(4): 3
+Parallel(6): 5
+Parallel(8): 3
+Parallel(12): 2
+--------
+Times for 10000 vertices and 50000 connections: 
+Serial: 4
+Parallel(2): 12
+Parallel(4): 7
+Parallel(6): 7
+Parallel(8): 9
+Parallel(12): 6
+--------
+Times for 100000 vertices and 500000 connections: 
+Serial: 17
+Parallel(2): 29
+Parallel(4): 40
+Parallel(6): 34
+Parallel(8): 35
+Parallel(12): 37
+--------
+Times for 100000 vertices and 1000000 connections: 
+Serial: 19
+Parallel(2): 23
+Parallel(4): 37
+Parallel(6): 28
+Parallel(8): 28
+Parallel(12): 34
+--------
+Times for 150000 vertices and 10000000 connections: 
+Serial: 197
+Parallel(2): 138
+Parallel(4): 101
+Parallel(6): 158
+Parallel(8): 108
+Parallel(12): 128
+--------
